@@ -36,12 +36,12 @@ const chai =  () => {
 // chai()
 
 // const addTwo = (num1, num2) => {
-//     return num1 + num2
+//     return num1 + num2                 // Curley main krte hai return ka use
 // }
 
-// const addTwo = (num1, num2) =>  num1 + num2
+// const addTwo = (num1, num2) =>  num1 + num2 
 
-// const addTwo = (num1, num2) => ( num1 + num2 )
+// const addTwo = (num1, num2) => ( num1 + num2 )  // ( is type k bracket main return use nhi krte)
 
 const addTwo = (num1, num2) => ({username: "hitesh"})
 
