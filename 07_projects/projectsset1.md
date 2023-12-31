@@ -43,7 +43,9 @@ const form = document.querySelector('form');
 // this usecase will give you empty
 // const height = parseInt(document.querySelector('#height').value)
 
+//This function is used to prevent default action of form, which is it won't submit the value to the server , it will stop that from doing that.
 form.addEventListener('submit', function (e) {
+
   e.preventDefault();
 
   const height = parseInt(document.querySelector('#height').value);
